@@ -1,13 +1,11 @@
 <template>
-	<div class="hello"></div>
+	<div class="hello">GHGFHDFJ`HJ</div>
 </template>
 
 <script>
 export default {
 	name: "HelloWorld",
-	props: {
-		msg: String,
-	},
+	props: {},
 };
 </script>
 
