@@ -1,12 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  position: relative;
   font-weight: normal;
 }
-
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  width: 100%;
+}
 body {
-  line-height: 2;
+  font-family: "Muli", sans-serif;
+  overflow: hidden;
+  margin: 0;
+  background: rgba(221, 160, 221, 0.6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
