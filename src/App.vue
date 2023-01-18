@@ -27,7 +27,7 @@ export default {
 	},
 	async created() {
 		try {
-			const response = await fetch("/data.json");
+			const response = await fetch("/public/data.json");
 			const options = await response.json();
 			this.options = options.car;
 		} catch (err) {
